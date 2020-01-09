@@ -11,13 +11,9 @@
 
 <script>
 export default {
-
     props: {
         count: Number
     },
-  
-
-   
 
 }
 
@@ -38,6 +34,7 @@ export default {
         background:royalblue;
         color: white;
         width: 10%;
+        transition: width 1s;
         padding-left: 20px;
         height: 20px;
         border-radius: 25px;
